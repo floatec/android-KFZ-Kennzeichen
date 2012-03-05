@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout01" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#FFFFFF" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kennzeichen" android:textColor="#000000"></TextView><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/KFZ" android:singleLine="true" android:minWidth="50px"></EditText>
+</LinearLayout></TableRow>
+</TableLayout>
