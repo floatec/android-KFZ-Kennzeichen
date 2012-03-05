@@ -2,17 +2,17 @@
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
-  android:layout_height="fill_parent" android:background="#FFFFFF" android:orientation="vertical">
+  android:layout_height="fill_parent" android:background="#FFFFFF" android:orientation="vertical" android:id="@+id/tab1Layout">
   
 
 
 
- 
+
 
 
 
 <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout01" android:layout_width="fill_parent">
-<Spinner android:id="@+id/Spinner01" android:layout_height="wrap_content" android:entries="@array/spinner" android:layout_width="wrap_content" android:minWidth="180px" android:visibility="gone"></Spinner><EditText android:layout_height="wrap_content" android:id="@+id/KFZ" android:singleLine="true" android:layout_width="match_parent" android:autoText="false"></EditText>
+<Spinner android:id="@+id/Spinner01" android:layout_height="wrap_content" android:entries="@array/spinner" android:layout_width="wrap_content" android:minWidth="180px"></Spinner><EditText android:layout_height="wrap_content" android:id="@+id/KFZ" android:singleLine="true" android:layout_width="match_parent" android:autoText="false"></EditText>
 
 <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Länder" android:id="@+id/BLand" android:visibility="gone"></Button>
 

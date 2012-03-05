@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    <string name="app_name">KFZ Kennzeichen</string>
 
+	<string name="app_name">KFZ Kennzeichen</string>
+	<string name="app_version">4.4.4</string>
+	<string name="app_author">Patrick Müller</string>
+	<string-array name="spinner">
+		<item>Kennzeichen</item>
+		<item>Länderzeichen</item>
+		<item>Rückwärtssuche</item>
+	</string-array>
+	<string name="kennzeichen">Kennzeichen</string>
+	<string name="laender">Länder</string>
+	<string name="rueckwaerts">Rückwärts</string>
+	<string name="hp">http://www.floatec.de</string>
+	<string name="hplabel">Homepage:</string>
+	<string name="version_label">Version:</string>
+	<string name="name_label">Name:</string>
+	<string name="maillabel">E-Mail:</string>
+	<string name="mail">android@floatec.de</string>
+	<string name="author_label">Autoren:</string>
+	<string name="tanks_label">Danksagung:</string>
+	<string name="thanks">Dirk Wendel,Johannes Kotzmaier,</string>
+	<string name="D">Deutschland</string>
+	<string name="AT">Österreich</string>
+	<string name="CH">Schweiz</string>
+	<string name="IT">Italien</string>
+	<string name="PL">Polen</string>
+	<string name="FR">Frankreich</string>
+	<string name="thanks2">Eric Lavarde</string>
+	<string name="Kennzeichen">Kennzeichen</string>
+	<string name="leer">Bitte Kennzeichen eingeben</string>
+	<string name="settings" >Einstellungen</string>
+	<string name="about">Über</string>
+	<string name="fehlerreport">Fehler melden</string>
+	<string name="exit">Beenden</string>
+	<string name="donate">Spenden</string>
+	<string name="donate_text">Hallo lieber Nutzer. Ich hoffe dir gefällt die App. Leider kostet die App Entwicklung teilweise einigs an Zeit. Jedoch möchte ich meine Apps weder Kostenpflichtig machen, noch nervige Werbung und damit verbundene unnötige Berechtigungen einfügen. Daher Möchte Ich euch bitten doch einen Kleienn Betrag für meine Projekte zu Spenden. Wenn Ihr dies nicht tut entstehen euch natürlich in der Nutzung keinerlei Nachteile, jedoch würde ich mich wirklich sehr freuen.</string>
+	<string name="donate_code">Spenden Code</string>
+	<string name="yes">Ja</string>
+	<string name="no">Nein</string>
 </resources>
+

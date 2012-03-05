@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Plaques d\'immatriculation</string>
+	
+	<string name="app_author">Patrick Meunier</string> <!-- :-) -->
+	<string-array name="spinner">
+		<item>Codes de plaque</item> <!-- Oder nur "Codes", um kürzer zu machen -->
+		<item>Codes pays</item>
+		<item>Recherche inverse</item>
+	</string-array>
+	<string name="kennzeichen">Code</string>
+	<string name="laender">Pays</string>
+	<string name="rueckwaerts">Inverse</string>
+	<string name="hp">http://www.floatec.de</string>
+	<string name="hplabel">Page d\'accueil:</string>
+	<string name="version_label">Version:</string>
+	<string name="name_label">Nom:</string>
+	<string name="maillabel">E-mail:</string>
+	<string name="mail">android@floatec.de</string>
+	<string name="author_label">Auteurs:</string>
+	<string name="tanks_label">Remerciements:</string>
+	<string name="thanks">Dirk Wendel,Johannes Kotzmaier,</string>
+	<string name="D">Allemagne</string>
+	<string name="AT">Autriche</string>
+	<string name="CH">Suisse</string>
+	<string name="IT">Italie</string>
+	<string name="PL">Pologne</string>
+	<string name="FR">France</string>
+	<string name="thanks2">Eric Lavarde</string>
+	<string name="Kennzeichen">Code</string>
+	<string name="leer">Entrez un code s.v.p.</string>
+	<string name="settings" >Configuration</string>
+	<string name="about">À propos</string>
+	<string name="fehlerreport">Signaler une erreur</string>
+	<string name="exit">Quitter</string>
+	<string name="donate">Donation</string>
+<string name="donate_text">Cher utilisateur, j\'espère que cette application te plaît. Il se trouve malheureusement que sa programmation me coûte un certain temps. Je ne veux cependant pas rendre cette application coûtante, ni embêter mes utilisateurs avec de la publicité qui serait la cause de droits superflus à accorder à cette application. Je me permets donc de te demander un petit don pour mon projet. Tu ne seras pas désavantagé(e) si tu ne m\'en fait pas un, mais ton support serait très apprécié.</string>
+<string name="donate_code">Code de donation</string>
+<string name="yes">Oui</string>
+<string name="no">Non</string>
+</resources>
+

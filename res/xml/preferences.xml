@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-<PreferenceCategory android:title="Länder"><CheckBoxPreference android:title="Deutschland" android:key="D"></CheckBoxPreference>
-<CheckBoxPreference android:title="Östereich" android:key="AT"></CheckBoxPreference>
-<CheckBoxPreference android:title="Schweitz" android:key="CH"></CheckBoxPreference>
-</PreferenceCategory>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Länder">
+		<CheckBoxPreference android:key="D" android:defaultValue="true" android:title="@string/D"></CheckBoxPreference>
+		<CheckBoxPreference android:key="AT"
+			android:defaultValue="true" android:title="@string/AT"></CheckBoxPreference>
+		<CheckBoxPreference android:key="CH"
+			android:defaultValue="true" android:title="@string/CH"></CheckBoxPreference>
+		<CheckBoxPreference android:key="IT" android:title="@string/IT" android:defaultValue="true"></CheckBoxPreference>
+		<CheckBoxPreference android:title="@string/PL" android:key="PL" android:defaultValue="true"></CheckBoxPreference>
+		<CheckBoxPreference android:title="@string/FR" android:key="FR" android:defaultValue="true"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Optik">
+		<CheckBoxPreference android:defaultValue="true"
+			android:summary="als erstes" android:key="exact" android:title="Exaktetreffer"></CheckBoxPreference>
+		<CheckBoxPreference android:title="Bundesländer Anzeigen"
+			android:key="BL"></CheckBoxPreference>
+		<CheckBoxPreference android:defaultValue="true"
+			android:title="Alte Kennzeichen" android:summary="anzeigen"
+			android:key="old"></CheckBoxPreference>
+		<CheckBoxPreference android:title="Letzte Suche merken?" android:key="remember" android:enabled="false"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Funktionen">
+		<CheckBoxPreference android:title="Ländersuche"
+			android:key="land" android:defaultValue="true" android:enabled="false"></CheckBoxPreference>
+		<CheckBoxPreference android:summary="beim klicken"
+			android:defaultValue="true" android:key="gmaps" android:title="Gmaps Suche"></CheckBoxPreference>
+		<EditTextPreference android:key="donate" android:dialogTitle="@string/donate_code" android:title="@string/donate_code"></EditTextPreference>
+	</PreferenceCategory>
 </PreferenceScreen>
