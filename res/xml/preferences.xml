@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-	<PreferenceCategory android:title="Länder">
+	<PreferenceCategory android:title="@string/laender">
 		<CheckBoxPreference android:key="D" android:defaultValue="true" android:title="@string/D"></CheckBoxPreference>
 		<CheckBoxPreference android:key="AT"
 			android:defaultValue="true" android:title="@string/AT"></CheckBoxPreference>
@@ -12,19 +12,18 @@
 	</PreferenceCategory>
 	<PreferenceCategory android:title="Optik">
 		<CheckBoxPreference android:defaultValue="true"
-			android:summary="als erstes" android:key="exact" android:title="Exaktetreffer"></CheckBoxPreference>
-		<CheckBoxPreference android:title="Bundesländer Anzeigen"
+			android:key="exact" android:title="@string/exakt"></CheckBoxPreference>
+		<CheckBoxPreference android:title="@string/bl"
 			android:key="BL"></CheckBoxPreference>
 		<CheckBoxPreference android:defaultValue="true"
-			android:title="Alte Kennzeichen" android:summary="anzeigen"
-			android:key="old"></CheckBoxPreference>
+			android:title="@string/old" android:key="old"></CheckBoxPreference>
 		<CheckBoxPreference android:title="Letzte Suche merken?" android:key="remember" android:enabled="false"></CheckBoxPreference>
 	</PreferenceCategory>
-	<PreferenceCategory android:title="Funktionen">
+	<PreferenceCategory android:title="@string/funktionen">
 		<CheckBoxPreference android:title="Ländersuche"
 			android:key="land" android:defaultValue="true" android:enabled="false"></CheckBoxPreference>
-		<CheckBoxPreference android:summary="beim klicken"
-			android:defaultValue="true" android:key="gmaps" android:title="Gmaps Suche"></CheckBoxPreference>
+		<CheckBoxPreference android:summary="@string/beim_klick"
+			android:defaultValue="true" android:key="gmaps" android:title="@string/gmaps"></CheckBoxPreference>
 		<EditTextPreference android:key="donate" android:dialogTitle="@string/donate_code" android:title="@string/donate_code"></EditTextPreference>
 	</PreferenceCategory>
 </PreferenceScreen>

@@ -149,7 +149,7 @@ public class LandTab extends Activity {
 		iv1.setBackgroundResource(android.R.drawable.ic_menu_search);
 		tr.addView(iv1);
 		TextView tw = new TextView(this);
-		tw.setText("Bitte Kennzeichen eingeben");
+		tw.setText(getString(R.string.leer));
 		tw.setTextSize(20);
 		tr.addView(tw);
 		tl.addView(tr, new TableLayout.LayoutParams(LayoutParams.FILL_PARENT,
@@ -177,7 +177,6 @@ public class LandTab extends Activity {
 			}
 
 			
-			@Override
 			public void onTextChanged(CharSequence s, int start, int before,
 					int count) {
 				String tmp = eKFZ.getText().toString().toUpperCase();
@@ -218,7 +217,7 @@ public class LandTab extends Activity {
              iv1.setBackgroundResource(android.R.drawable.ic_menu_search);
              tr.addView(iv1);
 				TextView tw=new TextView(this);
-				tw.setText( "Bitte Land eingeben");
+				tw.setText( getString(R.string.leer));
 				tw.setTextSize(20);
 				 tr.addView(tw);
 				 tl.addView(tr,new TableLayout.LayoutParams(
@@ -274,7 +273,6 @@ public class LandTab extends Activity {
 					 public void seti(int i){
 						 this.i=i;
 					 }
-					@Override
 					public void onClick(View v) {
 						// TODO Auto-generated method stu 
 						

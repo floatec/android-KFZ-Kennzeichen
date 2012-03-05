@@ -49,8 +49,8 @@ public class KFZ extends Activity {
 	private KFZdatabase DB;
 	SharedPreferences prefs;
 
-	private void Searchsettings() {
-		offset=0;
+	protected void Searchsettings(int offset) {
+		this.offset=offset;
 	}
 
 	private boolean exect, gmaps, land;
@@ -159,12 +159,7 @@ public class KFZ extends Activity {
 
 			public void afterTextChanged(Editable s) {
 				// table.removeAllViews();
-				/*
-				 * tOrte_D.setText(findOrte("D"));
-				 * tOrte_AT.setText(findOrte("AT"));
-				 * tOrte_CH.setText(findOrte("CH"));
-				 */
-
+				
 				search();
 			}
 
@@ -174,13 +169,12 @@ public class KFZ extends Activity {
 
 			}
 
-			@Override
 			public void onTextChanged(CharSequence s, int start, int before,
 					int count) {
 				String tmp = eKFZ.getText().toString().toUpperCase();
 				if (eKFZ.getText().toString().compareTo(tmp) != 0) {
-					eKFZ.setText(tmp);
-					eKFZ.setSelection(eKFZ.getText().toString().length());
+					//eKFZ.setText(tmp);
+					//eKFZ.setSelection(eKFZ.getText().toString().length());
 					SharedPreferences.Editor editor = prefs.edit();
 					editor.putString("edit", tmp);
 					editor.commit();
@@ -209,7 +203,7 @@ public class KFZ extends Activity {
 		 * findOLand(false); return; } if(
 		 * spinner.getSelectedItemPosition()==2){ offset=1; }
 		 */
-		this.Searchsettings();
+		
 		if (exect) {
 			if (D) {
 				findOrte("D", true, offset);
@@ -289,11 +283,14 @@ public class KFZ extends Activity {
 				trtrenner.setLayoutParams(new LayoutParams(
 						LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 				View line2 = new View(this);
+				line2.setLayoutParams(new LayoutParams(
+						LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 				line2.setBackgroundColor(Color.LTGRAY);
 				line2.setMinimumHeight(20);
 				trtrenner.addView(line2);
 				View line3 = new View(this);
-
+				line3.setLayoutParams(new LayoutParams(
+						LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 				line3.setBackgroundColor(Color.LTGRAY);
 				line3.setMinimumHeight(20);
 				trtrenner.addView(line3);
@@ -302,6 +299,8 @@ public class KFZ extends Activity {
 				line.setMinimumHeight(20);
 				line.setText(Land);
 				line.setTextColor(Color.BLACK);
+				line.setLayoutParams(new LayoutParams(
+						LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 				trtrenner.addView(line);
 				
 
@@ -526,7 +525,7 @@ public class KFZ extends Activity {
 
 			View.OnClickListener eventHandler = new View.OnClickListener() {
 
-				@Override
+				
 				public void onClick(View v) {
 					// TODO Auto-generated method stu
 
@@ -624,7 +623,7 @@ public class KFZ extends Activity {
 							+ getString(R.string.app_name)
 							+ " V."
 							+ getString(R.string.app_version)
-							+ "&body=Fehlendes Kennzeichen:\nKurzzeichen:\nAusgeschrieben:\nBundesland:\nWenn veraltet neues kennzeichen:\nDeutschland[ ]Österreich[ ]Schweitz[ ]Italien[ ]\n\nSonstige Fehler oder Verbesserungsvorschläge:"));
+							+ "&body=Fehlendes Kennzeichen(missing item):\nAusgeschrieben(name):\nBundesland(ragion):\nWenn veraltet neues kennzeichen:\nLand(country):\n\nSonstige Fehler oder Verbesserungsvorschläge(other errors):"));
 			startActivity(browser);
 			return true;
 		case 2:

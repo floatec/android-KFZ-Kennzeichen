@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">Plaques d\'immatriculation</string>
-	
+	<string name="app_version">4.4.5</string>
 	<string name="app_author">Patrick Meunier</string> <!-- :-) -->
 	<string-array name="spinner">
 		<item>Codes de plaque</item> <!-- Oder nur "Codes", um kürzer zu machen -->
@@ -39,5 +39,11 @@
 <string name="donate_code">Code de donation</string>
 <string name="yes">Oui</string>
 <string name="no">Non</string>
+	<string name="exakt">Exaktetreffer als erstes</string>
+	<string name="bl">Bundesländer Anzeigen</string>
+	<string name="old">old ones</string>
+	<string name="funktionen">functions</string>
+	<string name="gmaps">Gmaps Search</string>
+	<string name="beim_klick">on click</string>
 </resources>
 

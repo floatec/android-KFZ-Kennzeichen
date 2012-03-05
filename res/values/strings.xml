@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">KFZ Kennzeichen</string>
-	<string name="app_version">4.4.4</string>
+	<string name="app_version">4.4.5</string>
 	<string name="app_author">Patrick Müller</string>
 	<string-array name="spinner">
 		<item>Kennzeichen</item>
@@ -26,8 +26,8 @@
 	<string name="CH">Schweiz</string>
 	<string name="IT">Italien</string>
 	<string name="PL">Polen</string>
-	<string name="FR">Frankreich</string>
-	<string name="thanks2">Eric Lavarde</string>
+	<string name="FR">Frankreich</string>	
+	<string name="thanks2">Eric Lavarde,Mateusz Więcek</string>
 	<string name="Kennzeichen">Kennzeichen</string>
 	<string name="leer">Bitte Kennzeichen eingeben</string>
 	<string name="settings" >Einstellungen</string>
@@ -39,5 +39,11 @@
 	<string name="donate_code">Spenden Code</string>
 	<string name="yes">Ja</string>
 	<string name="no">Nein</string>
+	<string name="exakt">Exaktetreffer als erstes</string>
+	<string name="bl">Bundesländer Anzeigen</string>
+	<string name="old">Alte Kennzeichen</string>
+	<string name="funktionen">Funktionen</string>
+	<string name="gmaps">Gmaps Suche</string>
+	<string name="beim_klick">beim klicken</string>
 </resources>
 

@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">License plates</string>
-	
+	<string name="app_version">4.4.5</string>
 	<string name="app_author">Patrick Müller</string>
 	<string-array name="spinner">
 		<item>Registration codes</item>
@@ -27,12 +27,23 @@
 	<string name="IT">Italy</string>
 	<string name="PL">Poland</string>
 	<string name="FR">France</string>
-	<string name="thanks2">Eric Lavarde</string>
+	<string name="thanks2">Eric Lavarde,Mateusz Więcek</string>
 	<string name="Kennzeichen">Code</string>
 	<string name="leer">Enter a code please</string>
 	<string name="settings" >Settings</string>
 	<string name="about">About</string>
 	<string name="fehlerreport">Report an error</string>
 	<string name="exit">Exit</string>
+		<string name="donate">Donate</string>
+	<string name="donate_text">Please donate</string>
+	<string name="donate_code">Donate Code</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+		<string name="exakt">Exaktetreffer als erstes</string>
+	<string name="bl">Bundesländer Anzeigen</string>
+	<string name="old">old ones</string>
+	<string name="funktionen">functions</string>
+	<string name="gmaps">Gmaps Search</string>
+	<string name="beim_klick">on click</string>
 </resources>
 
